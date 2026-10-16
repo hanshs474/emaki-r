@@ -1,0 +1,14 @@
+Package: emaki
+Type: Package
+Title: Generate 'Seedance' Videos and Images with 'emaki'
+Version: 0.1.0
+Authors@R: person("emaki", role = c("aut", "cre"), email = "support@emaki.ai")
+Description: Official SDK for 'emaki' <https://emaki.ai>, the Japanese-language
+    AI video generator for 'Seedance' 2.5 and 'Seedance' 2.0. Submit
+    text-to-video, image-to-video and image runs with your 'emaki' API key,
+    wait for the result URL, and check your remaining credits.
+License: MIT + file LICENSE
+URL: https://emaki.ai/?utm_source=r-universe&utm_medium=package, https://emaki.ai/seedance-2-5, https://github.com/hanshs474/emaki-r
+BugReports: https://github.com/hanshs474/emaki-r/issues
+Imports: curl, jsonlite
+Encoding: UTF-8

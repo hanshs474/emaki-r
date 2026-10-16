@@ -1,0 +1,7 @@
+export(emaki_generate_video)
+export(emaki_generate_image)
+export(emaki_submit)
+export(emaki_status)
+export(emaki_credits)
+importFrom(curl, new_handle, handle_setheaders, handle_setopt, curl_fetch_memory)
+importFrom(jsonlite, toJSON, fromJSON)
